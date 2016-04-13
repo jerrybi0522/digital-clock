@@ -31,8 +31,8 @@ $(document).ready(function(){
 			globalMinute = min;
 		};
 
-		var titleColor = ['purple', 'black', 'limegreen', 'white']
-		var indexpos = 0
+		var titleColor = ['purple', 'black', 'limegreen', 'white'];
+		var indexpos = 0;
 		if(hr != globalHour){
 			$('h1').css('color', titleColor[indexpos]);
 			if(indexpos<3){
